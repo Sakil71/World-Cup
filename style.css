@@ -1,0 +1,120 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: darkblue; */
+}
+
+/*---------------------
+    common style
+ -----------------------*/
+
+
+/*--------------------
+    banner style
+ ---------------------*/
+.heading{
+    display: flex;
+    background-color: #161616;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 30px;
+    color: #FFFFFF;
+    border-radius: 30px; 
+    margin-bottom: 30px;  
+}
+.banner{
+    width: 50%; 
+}
+#banner-text{
+    padding: 50px;  
+}
+.banner img{
+   width: 100%;  
+}
+h1{
+    font-size: 50px;
+}
+.watch-live{
+    text-decoration: none;
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 6px 25px;
+    color: whitesmoke;
+    font-size: 10px;
+}
+
+
+/*--------------------
+    feature style
+----------------------*/  
+
+article{
+    display: flex;
+    width: 80%;
+    column-gap: 5px;
+    margin: 0 50px;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 210px;
+    align-items: center;
+    background-color: #161616;
+    border-radius: 10px;
+}
+.all-blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+    width: 100%;
+}
+.anchor{
+    text-decoration: none;
+    padding: 6px 25px;
+    width: 50%;
+    background-color: whitesmoke;
+    margin: 10px;
+    color: #161616;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+}
+#blog{
+    background-color: #DD0000;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.comment{
+    padding: 10px;
+}
+button{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 3px 15px;
+    font-weight: 700;
+}
+footer{
+    background-color: #161616;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+hr{
+    width: 70%;
+    border: 0.1px solid gray;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 20px;
+    font-size: 10px;
+}
