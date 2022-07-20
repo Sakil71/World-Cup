@@ -19,7 +19,7 @@ body{
     padding: 0 30px;
     color: #FFFFFF;
     border-radius: 30px; 
-    margin-bottom: 30px;  
+    margin-bottom: 50px;  
 }
 .banner{
     width: 50%; 
@@ -49,17 +49,21 @@ h1{
 
 article{
     display: flex;
-    width: 80%;
-    column-gap: 5px;
-    margin: 0 50px;
-    justify-items: center;
-    margin-bottom: 30px;
+    width: 85%;
+    column-gap: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.content img{
+    width: 100%;
 }
 .feature{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 210px;
+    padding-top: 20px;
+    width: 40%;
+    height: 170px;
     align-items: center;
     background-color: #161616;
     border-radius: 10px;
@@ -67,9 +71,8 @@ article{
 .all-blogs{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    row-gap: 5px;
-    column-gap: 5px;
-    width: 100%;
+    row-gap: 15px;
+    column-gap: 15px;
 }
 .anchor{
     text-decoration: none;
@@ -94,6 +97,10 @@ article{
 }
 .comment{
     padding: 10px;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
 }
 button{
     border: 1px solid gray;
