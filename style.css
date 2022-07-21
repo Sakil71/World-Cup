@@ -16,7 +16,7 @@ body{
     padding: 0 30px;
     color: #FFFFFF;
     border-radius: 30px; 
-    margin-bottom: 50px;  
+    margin-bottom: 50px; 
 }
 .banner{
     width: 50%; 
@@ -143,7 +143,7 @@ footer{
     text-align: center;
     color: whitesmoke;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 hr{
     width: 70%;
@@ -155,6 +155,13 @@ a{
     margin: 20px;
     font-size: 10px;
 }
+.social-media{
+    padding: 30px;
+    font-size: 30px;
+}
+.fa-brands{
+    margin: 20px;
+}
 
 /* ----------------------------------
         For Tablet View
@@ -162,7 +169,6 @@ a{
 @media screen and (min-width: 768px) and (max-width: 1023px){
 
     .article{
-        display: flex;
         flex-direction: column;
     }
     .all-blogs{
@@ -171,6 +177,9 @@ a{
     }
     .banner img{
         width: 500px;  
+     }
+     .schedule{
+        grid-template-columns: repeat(2,1fr);
      }
 }
 
@@ -189,5 +198,8 @@ a{
     }
     .banner img{
         width: 400px;  
+     }
+     .schedule{
+        grid-template-columns: repeat(1,1fr);
      }
 }
