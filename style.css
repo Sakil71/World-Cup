@@ -22,7 +22,7 @@ body{
     width: 50%; 
 }
 .banner img{
-    width: 100%;  
+    width: 500px;  
  }
 #banner-text{
     padding: 50px;  
@@ -154,4 +154,40 @@ a{
     color: whitesmoke;
     margin: 20px;
     font-size: 10px;
+}
+
+/* ----------------------------------
+        For Tablet View
+---------------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .article{
+        display: flex;
+        flex-direction: column;
+    }
+    .all-blogs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .banner img{
+        width: 500px;  
+     }
+}
+
+/*---------------------------------------
+         For Mobile
+----------------------------------------- */
+
+@media screen and (max-width: 767px){
+    .heading{
+        display: flex;
+        flex-direction: column;
+    }
+    .all-blogs{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+    }
+    .banner img{
+        width: 400px;  
+     }
 }
