@@ -1,13 +1,10 @@
+/*----------------------------------------------
+         For web 1
+------------------------------------------------ */
 body{
     font-family: 'Poppins', sans-serif;
     /* background-color: darkblue; */
 }
-
-/*---------------------
-    common style
- -----------------------*/
-
-
 /*--------------------
     banner style
  ---------------------*/
@@ -24,22 +21,24 @@ body{
 .banner{
     width: 50%; 
 }
+.banner img{
+    width: 100%;  
+ }
 #banner-text{
     padding: 50px;  
-}
-.banner img{
-   width: 100%;  
 }
 h1{
     font-size: 50px;
 }
 .watch-live{
     text-decoration: none;
-    background: #DD0000;
+    background-color: #DD0000;
     border-radius: 5px;
-    padding: 6px 25px;
+    padding: 8px 25px;
     color: whitesmoke;
     font-size: 10px;
+    font-weight: 700;
+    margin-left: 0;
 }
 
 
@@ -63,7 +62,7 @@ article{
     flex-direction: column;
     padding-top: 20px;
     width: 40%;
-    height: 170px;
+    height: 200px;
     align-items: center;
     background-color: #161616;
     border-radius: 10px;
@@ -83,16 +82,17 @@ article{
     color: #161616;
     border-radius: 6px;
     text-align: center;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
 }
 #blog{
     background-color: #DD0000;
+    color: #FFFFFF;
 }
 .content{
     display: flex;
-    flex-direction: column;
-    border: 1px solid gray;
+    flex-direction: column;    
+    box-shadow: 0 0.3px 1px gray;
     border-radius: 10px;
 }
 .comment{
@@ -108,6 +108,36 @@ button{
     padding: 3px 15px;
     font-weight: 700;
 }
+
+/*--------------------------------
+        For Web2
+----------------------------------- */
+
+.schedule{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;   
+    border-radius: 10px;
+    
+}
+.country{
+    display: flex;
+}
+.flag{
+    display: flex;
+    align-items: center;
+}
+ 
+.match{
+    box-shadow: 0 0.3px 1px gray;
+    padding: 20px;
+    margin: 0 10px 15px;
+    border-radius: 8px;
+}
+
+/*-----------------------------
+        For Footer
+ ------------------------------- */
 footer{
     background-color: #161616;
     text-align: center;
